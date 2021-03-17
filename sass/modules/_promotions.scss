@@ -20,13 +20,11 @@
   grid-gap: 50px;
 
   margin-top: 50px;
+  @include mobile768 {
+    padding: 20px;
+  }
 
   .promo-card {
-
-    @include mobile768 {
-      padding: 25px;
-    }
-
     img {
       max-height: 250px;
       width: 100%;
