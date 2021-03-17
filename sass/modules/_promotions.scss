@@ -20,6 +20,7 @@
   grid-gap: 50px;
 
   margin-top: 50px;
+  
   @include mobile768 {
     padding: 20px;
   }

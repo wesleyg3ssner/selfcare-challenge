@@ -1,0 +1,25 @@
+{
+  "name": "selfcare-challenge",
+  "version": "1.0.0",
+  "description": "<br /> <p align=\"center\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleygessner/selfcare-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleygessner/selfcare-challenge/issues"
+  },
+  "homepage": "https://github.com/wesleygessner/selfcare-challenge#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0"
+  }
+}
