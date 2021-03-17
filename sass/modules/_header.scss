@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 0;
+
+  @include mobile768 {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .navigation {
+    .header-navbar {
+      display: flex;
+      margin-top: 20px;
+
+      a {
+        padding: 10px;
+        color: $secondary-color;
+
+        &:hover {
+          color: $primary-color-hover;
+        }
+      }
+    }
+  }
+}
+
+.banner {
+  width: 100%;
+}

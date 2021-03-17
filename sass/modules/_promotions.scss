@@ -1,0 +1,54 @@
+.promo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+
+  border-bottom: 1px solid #a5a1a188;
+
+  @include mobile768 {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+.promotions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-template-rows: repeat(3, 350px);
+
+  grid-gap: 50px;
+
+  margin-top: 50px;
+
+  .promo-card {
+    img {
+      max-height: 250px;
+      width: 100%;
+      object-fit: cover;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+      }
+    }
+
+    .promo-body {
+      margin-top: 20px;
+
+      p {
+        margin: 10px 0;
+        font-size: 1.1rem;
+
+        &:last-child {
+          font-weight: 700;
+          font-size: 1.2rem;
+        }
+      }
+
+      .price {
+        color: $primary-color;
+      }
+    }
+  }
+}
