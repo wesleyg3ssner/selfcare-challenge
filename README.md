@@ -6,7 +6,9 @@
   <h3 align="center">selfcare</h3>
 
   <p align="center">
-    <a href="https://github.com/thaysagomes/selfcare">Saiba mais sobre o Desafio</a>
+      <a href="https://wesleygessner.github.io/selfcare-challenge/">Demo</a> | 
+    <a href="https://github.com/thaysagomes/selfcare">Desafio</a> 
+
   </p>
 
   <br>
