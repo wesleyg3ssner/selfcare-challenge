@@ -22,6 +22,11 @@
   margin-top: 50px;
 
   .promo-card {
+
+    @include mobile768 {
+      padding: 15px;
+    }
+
     img {
       max-height: 250px;
       width: 100%;
