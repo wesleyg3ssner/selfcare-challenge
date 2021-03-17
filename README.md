@@ -21,6 +21,7 @@ Projeto desenvolvido com base em um desafio do site [DevChallenge](https://devch
 - [HTML]()
 - [CSS]()
 - [SASS]()
+- [GULP]()
 
 ### Contact
 
